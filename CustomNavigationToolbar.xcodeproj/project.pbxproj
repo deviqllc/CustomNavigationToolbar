@@ -1,0 +1,311 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC3755191772900800672E7A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC3755181772900800672E7A /* UIKit.framework */; };
+		CC37551B1772900800672E7A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC37551A1772900800672E7A /* Foundation.framework */; };
+		CC37551D1772900800672E7A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC37551C1772900800672E7A /* CoreGraphics.framework */; };
+		CC3755231772900800672E7A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CC3755211772900800672E7A /* InfoPlist.strings */; };
+		CC3755251772900800672E7A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CC3755241772900800672E7A /* main.m */; };
+		CC3755291772900800672E7A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CC3755281772900800672E7A /* AppDelegate.m */; };
+		CC37552B1772900800672E7A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = CC37552A1772900800672E7A /* Default.png */; };
+		CC37552D1772900800672E7A /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CC37552C1772900800672E7A /* Default@2x.png */; };
+		CC37552F1772900800672E7A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CC37552E1772900800672E7A /* Default-568h@2x.png */; };
+		CC3755321772900800672E7A /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC3755301772900800672E7A /* MainStoryboard.storyboard */; };
+		CC3755351772900800672E7A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC3755341772900800672E7A /* ViewController.m */; };
+		CC37553D1772905100672E7A /* CustomUINavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = CC37553C1772905100672E7A /* CustomUINavigationBar.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CC3755151772900800672E7A /* CustomNavigationToolbar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomNavigationToolbar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC3755181772900800672E7A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CC37551A1772900800672E7A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CC37551C1772900800672E7A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CC3755201772900800672E7A /* CustomNavigationToolbar-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CustomNavigationToolbar-Info.plist"; sourceTree = "<group>"; };
+		CC3755221772900800672E7A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CC3755241772900800672E7A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CC3755261772900800672E7A /* CustomNavigationToolbar-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CustomNavigationToolbar-Prefix.pch"; sourceTree = "<group>"; };
+		CC3755271772900800672E7A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CC3755281772900800672E7A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CC37552A1772900800672E7A /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		CC37552C1772900800672E7A /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		CC37552E1772900800672E7A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		CC3755311772900800672E7A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		CC3755331772900800672E7A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CC3755341772900800672E7A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CC37553B1772905100672E7A /* CustomUINavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomUINavigationBar.h; sourceTree = "<group>"; };
+		CC37553C1772905100672E7A /* CustomUINavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomUINavigationBar.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC3755121772900800672E7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC3755191772900800672E7A /* UIKit.framework in Frameworks */,
+				CC37551B1772900800672E7A /* Foundation.framework in Frameworks */,
+				CC37551D1772900800672E7A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC37550C1772900800672E7A = {
+			isa = PBXGroup;
+			children = (
+				CC37551E1772900800672E7A /* CustomNavigationToolbar */,
+				CC3755171772900800672E7A /* Frameworks */,
+				CC3755161772900800672E7A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CC3755161772900800672E7A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC3755151772900800672E7A /* CustomNavigationToolbar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC3755171772900800672E7A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CC3755181772900800672E7A /* UIKit.framework */,
+				CC37551A1772900800672E7A /* Foundation.framework */,
+				CC37551C1772900800672E7A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CC37551E1772900800672E7A /* CustomNavigationToolbar */ = {
+			isa = PBXGroup;
+			children = (
+				CC3755271772900800672E7A /* AppDelegate.h */,
+				CC3755281772900800672E7A /* AppDelegate.m */,
+				CC37553B1772905100672E7A /* CustomUINavigationBar.h */,
+				CC37553C1772905100672E7A /* CustomUINavigationBar.m */,
+				CC3755301772900800672E7A /* MainStoryboard.storyboard */,
+				CC3755331772900800672E7A /* ViewController.h */,
+				CC3755341772900800672E7A /* ViewController.m */,
+				CC37551F1772900800672E7A /* Supporting Files */,
+			);
+			path = CustomNavigationToolbar;
+			sourceTree = "<group>";
+		};
+		CC37551F1772900800672E7A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CC3755201772900800672E7A /* CustomNavigationToolbar-Info.plist */,
+				CC3755211772900800672E7A /* InfoPlist.strings */,
+				CC3755241772900800672E7A /* main.m */,
+				CC3755261772900800672E7A /* CustomNavigationToolbar-Prefix.pch */,
+				CC37552A1772900800672E7A /* Default.png */,
+				CC37552C1772900800672E7A /* Default@2x.png */,
+				CC37552E1772900800672E7A /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC3755141772900800672E7A /* CustomNavigationToolbar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC3755381772900800672E7A /* Build configuration list for PBXNativeTarget "CustomNavigationToolbar" */;
+			buildPhases = (
+				CC3755111772900800672E7A /* Sources */,
+				CC3755121772900800672E7A /* Frameworks */,
+				CC3755131772900800672E7A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CustomNavigationToolbar;
+			productName = CustomNavigationToolbar;
+			productReference = CC3755151772900800672E7A /* CustomNavigationToolbar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC37550D1772900800672E7A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Vincent Faller";
+			};
+			buildConfigurationList = CC3755101772900800672E7A /* Build configuration list for PBXProject "CustomNavigationToolbar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CC37550C1772900800672E7A;
+			productRefGroup = CC3755161772900800672E7A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC3755141772900800672E7A /* CustomNavigationToolbar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC3755131772900800672E7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC3755231772900800672E7A /* InfoPlist.strings in Resources */,
+				CC37552B1772900800672E7A /* Default.png in Resources */,
+				CC37552D1772900800672E7A /* Default@2x.png in Resources */,
+				CC37552F1772900800672E7A /* Default-568h@2x.png in Resources */,
+				CC3755321772900800672E7A /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC3755111772900800672E7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC3755251772900800672E7A /* main.m in Sources */,
+				CC3755291772900800672E7A /* AppDelegate.m in Sources */,
+				CC3755351772900800672E7A /* ViewController.m in Sources */,
+				CC37553D1772905100672E7A /* CustomUINavigationBar.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CC3755211772900800672E7A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC3755221772900800672E7A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CC3755301772900800672E7A /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC3755311772900800672E7A /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CC3755361772900800672E7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CC3755371772900800672E7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC3755391772900800672E7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CustomNavigationToolbar/CustomNavigationToolbar-Prefix.pch";
+				INFOPLIST_FILE = "CustomNavigationToolbar/CustomNavigationToolbar-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CC37553A1772900800672E7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CustomNavigationToolbar/CustomNavigationToolbar-Prefix.pch";
+				INFOPLIST_FILE = "CustomNavigationToolbar/CustomNavigationToolbar-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC3755101772900800672E7A /* Build configuration list for PBXProject "CustomNavigationToolbar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC3755361772900800672E7A /* Debug */,
+				CC3755371772900800672E7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC3755381772900800672E7A /* Build configuration list for PBXNativeTarget "CustomNavigationToolbar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC3755391772900800672E7A /* Debug */,
+				CC37553A1772900800672E7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC37550D1772900800672E7A /* Project object */;
+}
